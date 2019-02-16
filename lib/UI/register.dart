@@ -19,7 +19,6 @@ class MyRegisterFormState extends State<MyRegisterForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldKey,
-      resizeToAvoidBottomPadding: false,
       appBar: AppBar(
         title: Text('REGISTER'),
         centerTitle: true,

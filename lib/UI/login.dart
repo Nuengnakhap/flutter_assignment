@@ -18,7 +18,6 @@ class MyLoginFormState extends State<MyLoginForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldKey,
-      resizeToAvoidBottomPadding: false,
       body: Form(
         key: _formKey,
         child: ListView(
